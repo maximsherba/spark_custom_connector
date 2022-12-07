@@ -1,7 +1,3 @@
-//Доработайте код в файле src/main/scala/org/example/datasource/postgres/PostgresDatasource.scala так,
-//чтобы тест в файле src/test/scala/org/example/PostgresqlSpec.scala при выполнении читал таблицу users не в одну партицию,
-//а в несколько (размер одной партиции должен задаваться через метод .option("partitionSize", "10")).
-
 package org.example
 
 import com.dimafeng.testcontainers.scalatest.TestContainerForAll
